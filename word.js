@@ -30,10 +30,10 @@ function Word(randomWord) {
   };
 };
 
-var testWord = new Word("Superman");
-testWord.createLetterObj();
-testWord.combineLetters();
-testWord.guessedLetterCheck("p");
+// var testWord = new Word("Superman");
+// testWord.createLetterObj();
+// testWord.combineLetters();
+// testWord.guessedLetterCheck("p");
 
 module.exports = Word;
 
